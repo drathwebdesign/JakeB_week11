@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1073299055170062699
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0
+  contrast:
+    m_OverrideState: 0
+    m_Value: 0
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 0.010956436, g: 0.5660378, b: 0, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 3
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 2969252202171081888}
+  - {fileID: -1073299055170062699}
+--- !u!114 &2969252202171081888
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840dcbc854a2ceb4583b6c5fea710054, type: 3}
+  m_Name: DualVignetteEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  vignetteColor1:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  vignetteColor2:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  vignettePosition1:
+    m_OverrideState: 1
+    m_Value: {x: 0.45, y: 0.5}
+  vignettePosition2:
+    m_OverrideState: 1
+    m_Value: {x: 0.65, y: 0.5}
+  vignetteRadius1:
+    m_OverrideState: 1
+    m_Value: 0
+  vignetteRadius2:
+    m_OverrideState: 1
+    m_Value: 0
+  vignetteSoftness:
+    m_OverrideState: 1
+    m_Value: 0.5
